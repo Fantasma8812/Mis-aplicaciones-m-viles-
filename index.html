@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicaciones Móviles</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Aplicaciones Móviles</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#aplicaciones">Aplicaciones</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#acerca-de">Acerca de</a></li>
+                <li><a href="#blog">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="inicio">
+        <h2>Bienvenidos a Aplicaciones Móviles</h2>
+        <p>Descubre y descarga las mejores aplicaciones para tu celular.</p>
+    </section>
+    
+    <section id="aplicaciones">
+        <h2>Aplicaciones</h2>
+        <div class="app">
+            <h3>Aplicación 1</h3>
+            <p>Descripción de la aplicación 1.</p>
+            <a href="enlace_de_descarga_1">Descargar</a>
+        </div>
+        <div class="app">
+            <h3>Aplicación 2</h3>
+            <p>Descripción de la aplicación 2.</p>
+            <a href="enlace_de_descarga_2">Descargar</a>
+        </div>
+    </section>
+    
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form action="enviar_contacto.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    
+    <section id="acerca-de">
+        <h2>Acerca de</h2>
+        <p>Información sobre el sitio o la empresa.</p>
+    </section>
+    
+    <section id="blog">
+        <h2>Blog</h2>
+        <article>
+            <h3>Título del blog</h3>
+            <p>Contenido del blog.</p>
+        </article>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Aplicaciones Móviles. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
